@@ -1,0 +1,15 @@
+{
+  "name": "CodingArena",
+  "version": "1.0.0",
+  "description": "Coding Arena",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vikash Verma",
+  "license": "MIT License",
+  "dependencies": {
+    "express": "3.5.1",
+    "request": "^2.53.0"
+  }
+}
