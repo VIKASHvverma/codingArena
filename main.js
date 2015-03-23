@@ -8,7 +8,7 @@ var CodeChecker=require('./request.js');
 
 app.use(exp.static(path.join(__dirname, 'public')));
 
-app.get('/check',function(req,res){
+app.post('/check',function(req,res){
 	// console.log(req.body);
 	// res.setHeader('Access-Control-Allow-Origin: *');
 	console.log(req.query);

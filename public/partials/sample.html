@@ -1,0 +1,102 @@
+<div id="sample" ng-controller="instructionController">
+  <h5>Sample Program</h5>
+  <ul class="code">
+  <li>
+  <a href="#!" class="collection-header active" style="font-size:25px;" >C</a>
+  <pre style="text-align:left;" class="language-c" ><code class="language-c">
+
+  #include &lt;stdio.h&gt;
+  int main() {
+    int i, n=5;
+    scanf("%d", &amp;n);
+    for (i=0; i&lt;n; i++) {
+        printf("hello world\n");
+    }
+    return 0;
+  }
+  </code></pre>
+</li><li style="display:none;">
+
+
+      <a href="#!" class="collection-item active" style="font-size:25px;" >C++</a>
+      <pre style="text-align:left;" class="language-c" ><code class="language-c">
+
+  #include &lt;iostream&gt;
+  using namespace std;
+  int main() {
+      int i, n=5;
+      for (i=0; i&lt;n; i++) {
+          cout &lt;&lt; "hello world\n";
+      }
+      return 0;
+  }
+      </code></pre>
+
+    </li><li style="display:none;">
+      <a href="#!" class="collection-item active" style="font-size:25px;" >Java</a>
+      <pre style="text-align:left;" class="language-c"><code class="language-c">
+
+        public class Solution {
+        public static void main(String args[] ) throws Exception {
+            int N = 5;
+            for (int i = 0; i &lt; N; i++) {
+                System.out.println("hello world");
+            }
+        }
+    }
+      </code></pre>
+    </li><li style="display:none;">
+
+      <a href="#!" class="collection-item active" style="font-size:25px;" >C#</a>
+      <pre style="text-align:left;" class="language-c" ><code class="language-c">
+
+    using System;
+    namespace Solution {
+        class Solution {
+            static void Main(string[] args) {
+                var N = 5;
+                for (var i = 0; i &lt; N; i++) {
+                    System.Console.WriteLine("hello world");
+                }
+            }
+        }
+    }
+      </code></pre>
+    </li><li style="display:none;">
+      <a href="#!" class="collection-item active" style="font-size:25px;" >PHP</a>
+      <pre style="text-align:left;" class="language-c"><code class="language-c">
+
+    &lt;?php
+    $number=5;
+
+    for ( $i = 0; $i &lt; $number; $i++) {
+        echo "hello world\n";
+    }
+    ?&gt;
+      </code></pre>
+
+    </li><li style="display:none;">
+
+      <a href="#!" class="collection-item active" style="font-size:25px;" >Python</a>
+      <pre style="text-align:left;" class="language-c" ><code class="language-c">
+N = 5
+for i in xrange(N):
+    print "hello world"
+      </code></pre>
+    </li>
+  </ul>
+
+    <ul class="pagination">
+      <li class="disabled"><a href="#!"><i class="mdi-navigation-chevron-left"></i></a></li>
+      <li class="waves-effect"><a href="#!" onclick=" getLang(1)">1</a></li>
+      <li class="waves-effect"><a href="#!" onclick=" getLang(2)">2</a></li>
+      <li class="waves-effect" ><a href="#!" onclick=" getLang(3)" >3</a></li>
+      <li class="waves-effect"><a href="#!" onclick=" getLang(4)">4</a></li>
+      <li class="waves-effect"><a href="#!" onclick=" getLang(5)">5</a></li>
+      <li class="waves-effect"><a href="#!" onclick=" getLang(6)">6</a></li>
+      <li class="disabled"><a href="#!"><i class="mdi-navigation-chevron-right"></i></a></li>
+    </ul>
+
+
+
+</div>

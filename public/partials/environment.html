@@ -1,0 +1,17 @@
+<table ng-controller="instructionController" class="bordered striped hoverable centered responsive-table blue-text">
+
+
+    <tr class="grey-text white ">
+      <td>
+        <h5>Language</h5>
+    </td>
+    <td>
+      <h5>Version</h5>
+    </td>
+  </tr>
+
+  <tr ng-repeat="env in instructions.environment">
+    <td ng-bind="env.lang"></td>
+    <td ng-bind="env.version"></td>
+  </tr>
+</table>
