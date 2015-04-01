@@ -4,7 +4,7 @@
   "description": "Coding Arena",
   "main": "main.js",
   "scripts": {
-    "test": "node main.js"
+    "start": "node main.js"
   },
   "author": "Vikash Verma",
   "license": "MIT License",
