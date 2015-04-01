@@ -2,9 +2,9 @@
   "name": "CodingArena",
   "version": "1.0.0",
   "description": "Coding Arena",
-  "main": "main.js",
+  "main": "app.js",
   "scripts": {
-    "start": "node main.js"
+    "start": "node app.js"
   },
    "engines": {
     "node": "0.10.x"
