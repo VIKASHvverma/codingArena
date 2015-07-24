@@ -24,7 +24,6 @@ app.post('/check',function(req,res){
   	//res.end('hello');
 })
 
-app.listen(process.env.OPENSHIFT_NODEJS_PORT || 8080,process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1',function(){
-	console.log('%s: Node server started on %s:%d !',
-                        Date(Date.now() ), process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1', process.env.OPENSHIFT_NODEJS_PORT || 8080);
+app.listen(process.env.PORT || 3000,function(){
+	console.log("Node app is running at localhost:" + process.env.PORT || 3000);
 });
