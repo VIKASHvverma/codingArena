@@ -132,7 +132,10 @@ var codeChecker=angular.module('codeChecker',[])
 			},{
 				lang:'Perl',
 				version:'Perl (v5.18.2)'
-			}];
+			},{
+                lang:'Go',
+                version:'Go (v1.6)'
+            }];
 			$scope.instructions.statement="Print 'hello world' 5 times."
 			$scope.instructions.samples=[
 				{
